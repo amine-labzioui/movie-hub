@@ -1,0 +1,59 @@
+/* src/components/SearchMovie/SearchMovie.css */
+.search-bar {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .search-bar form {
+    display: flex;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+  
+  .search-bar input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-right: none;
+    border-radius: 20px 0 0 20px;
+    outline: none;
+  }
+  
+  .search-bar button {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 0 20px 20px 0;
+    transition: background 0.3s;
+  }
+  
+  .search-bar button:hover {
+    background: #0056b3;
+  }
+  
+  .suggestions {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+    z-index: 10;
+  }
+  
+  .suggestions li {
+    padding: 10px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .suggestions li:hover {
+    background: #f1f1f1;
+  }
+  

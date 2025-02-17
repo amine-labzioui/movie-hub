@@ -1,0 +1,5 @@
+.error-container {
+    color: var(--secondary-color);
+    text-align: center;
+    margin: 20px 0;
+  }

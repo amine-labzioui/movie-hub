@@ -1,0 +1,19 @@
+/* src/components/MovieCard/MovieCard.css */
+.movie-card {
+    background: #444;
+    border-radius: 10px;
+    overflow: hidden;
+    color: white;
+    text-align: center;
+    transition: transform 0.2s;
+  }
+  
+  .movie-card img {
+    width: 100%;
+    border-bottom: 2px solid #f39c12;
+  }
+  
+  .movie-card:hover {
+    transform: scale(1.05);
+  }
+  

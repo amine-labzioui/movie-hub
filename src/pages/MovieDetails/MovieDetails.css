@@ -1,0 +1,71 @@
+/* src/pages/MovieDetails/MovieDetails.css */
+.movie-details {
+    padding: 20px;
+    color: #333;
+  }
+  
+  .backdrop {
+    position: relative;
+    text-align: center;
+    color: white;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+  }
+  
+  .backdrop img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .backdrop h1 {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .movie-info {
+    margin: 20px 0;
+  }
+  
+  .favorite-btn {
+    background: #ff6347;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .favorite-btn:hover {
+    background: #e55337;
+  }
+  
+  .cast ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .similar-movies .movie-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 15px;
+  }
+  
+  .movie-card img {
+    width: 100%;
+    border-radius: 5px;
+    transition: transform 0.3s;
+  }
+  
+  .movie-card:hover img {
+    transform: scale(1.05);
+  }
+  
